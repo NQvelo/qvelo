@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/qvelo/static/css/main.a20f3695.css",
+    "main.css": "/qvelo/static/css/main.3cdd77aa.css",
     "main.js": "/qvelo/static/js/main.78d405e4.js",
     "static/js/453.170971aa.chunk.js": "/qvelo/static/js/453.170971aa.chunk.js",
     "static/media/bgi.png": "/qvelo/static/media/bgi.97e77896f6b0d0202c29.png",
@@ -14,12 +14,12 @@
     "static/media/qveloLogo.png": "/qvelo/static/media/qveloLogo.eefd959179582c406036.png",
     "static/media/mss.svg": "/qvelo/static/media/mss.e46ba3487897c3740e9cae68c1fc21c8.svg",
     "index.html": "/qvelo/index.html",
-    "main.a20f3695.css.map": "/qvelo/static/css/main.a20f3695.css.map",
+    "main.3cdd77aa.css.map": "/qvelo/static/css/main.3cdd77aa.css.map",
     "main.78d405e4.js.map": "/qvelo/static/js/main.78d405e4.js.map",
     "453.170971aa.chunk.js.map": "/qvelo/static/js/453.170971aa.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a20f3695.css",
+    "static/css/main.3cdd77aa.css",
     "static/js/main.78d405e4.js"
   ]
 }
