@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/qvelo/static/css/main.a20f3695.css",
+    "main.js": "/qvelo/static/js/main.78d405e4.js",
+    "static/js/453.170971aa.chunk.js": "/qvelo/static/js/453.170971aa.chunk.js",
+    "static/media/bgi.png": "/qvelo/static/media/bgi.97e77896f6b0d0202c29.png",
+    "static/media/bgiMob.png": "/qvelo/static/media/bgiMob.139a883d254a304f6fb0.png",
+    "static/media/alikuri.png": "/qvelo/static/media/alikuri.aeef09f60abab04be59f.png",
+    "static/media/markGeo.ttf": "/qvelo/static/media/markGeo.bb983d532f5e9d683e8c.ttf",
+    "static/media/Med.ttf": "/qvelo/static/media/Med.f2ff5a1a640338789e34.ttf",
+    "static/media/sm.png": "/qvelo/static/media/sm.23b080c436d4f3c522af.png",
+    "static/media/Image.png": "/qvelo/static/media/Image.e6273fe02ae8b6c5bf99.png",
+    "static/media/ba-tr3.png": "/qvelo/static/media/ba-tr3.b39e7321e172c5846485.png",
+    "static/media/qveloLogo.png": "/qvelo/static/media/qveloLogo.eefd959179582c406036.png",
+    "static/media/mss.svg": "/qvelo/static/media/mss.e46ba3487897c3740e9cae68c1fc21c8.svg",
+    "index.html": "/qvelo/index.html",
+    "main.a20f3695.css.map": "/qvelo/static/css/main.a20f3695.css.map",
+    "main.78d405e4.js.map": "/qvelo/static/js/main.78d405e4.js.map",
+    "453.170971aa.chunk.js.map": "/qvelo/static/js/453.170971aa.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a20f3695.css",
+    "static/js/main.78d405e4.js"
+  ]
+}
