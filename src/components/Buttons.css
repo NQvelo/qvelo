@@ -1,0 +1,40 @@
+.btnSecondary-dark,
+.btnSecondary-light {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  /* color: rgba(255, 255, 255, 0.84); */
+  /* background-color: rgba(255, 255, 255, 0.057); */
+  padding: 12px 24px;
+  /* border: 1.3px solid rgba(255, 255, 255, 0.17); */
+  border-radius: 10px;
+  transition: ease 0.3s;
+}
+
+.btnSecondary-dark {
+  color: rgba(255, 255, 255, 0.84);
+  border: 1.3px solid rgba(255, 255, 255, 0.17);
+  background-color: rgba(255, 255, 255, 0.057);
+}
+
+.btnSecondary-dark:hover {
+  background-color: rgba(255, 255, 255, 0.159);
+}
+
+.btnSecondary-light {
+  color: rgba(0, 0, 0, 0.84);
+  border: 1.3px solid rgba(0, 0, 0, 0.17);
+  background-color: rgba(0, 0, 0, 0.057);
+}
+
+.btnSecondary-light:hover {
+  background-color: rgba(0, 0, 0, 0.159);
+}
+
+@media (max-width: 900px) {
+  .btnSecondary-dark,
+  .btnSecondary-light {
+    width: 100%;
+    height: 55px;
+  }
+}

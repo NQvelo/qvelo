@@ -1,0 +1,101 @@
+.scroll-container {
+  overflow-x: auto;
+  width: 100%;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+.square-dark,
+.square-light {
+  margin-top: 30px;
+  color: white;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  padding-top: 30px;
+  /* background-color: black; */
+}
+.square-dark {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.048);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  transition-duration: 0.5s;
+}
+.square-dark:hover {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.078);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  transition-duration: 0.5s;
+}
+.square-light {
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  background-color: rgba(0, 0, 0, 0.057);
+  color: black;
+  transition-duration: 0.5s;
+}
+
+.square-light:hover {
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  background-color: rgba(0, 0, 0, 0.116);
+  color: black;
+  transition-duration: 0.5s;
+}
+.content-container {
+  display: flex;
+  align-items: center;
+}
+
+.logoImg {
+  display: flex;
+  margin-left: 20px; /* Adjust spacing between image and text */
+}
+
+.logoImg img {
+  width: auto;
+  height: 340px;
+}
+
+.text-container {
+  margin-top: 3%;
+  padding: 30px;
+}
+
+.h3content {
+  font-size: 20px;
+  white-space: normal; /* Allow text to wrap */
+  word-wrap: break-word;
+  text-overflow: ellipsis;
+}
+.Pcontent {
+  font-size: 18px;
+  white-space: normal; /* Allow text to wrap */
+  word-wrap: break-word; /* Allow words to break and wrap to the next line */
+  display: -webkit-box; /* For WebKit (including Chrome and Safari) */
+  -webkit-line-clamp: 5; /* Limit number of lines */
+  -webkit-box-orient: vertical; /* Vertical layout */
+  overflow: hidden;
+}
+
+.scroll-container::-webkit-scrollbar {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .logoImg img {
+    width: auto;
+    height: 200px;
+  }
+  .text-container {
+    padding: 10px;
+  }
+
+  .Pcontent {
+    font-size: 18px;
+    white-space: normal; /* Allow text to wrap */
+    word-wrap: break-word; /* Allow words to break and wrap to the next line */
+    display: -webkit-box; /* For WebKit (including Chrome and Safari) */
+    -webkit-line-clamp: 3; /* Limit number of lines */
+    -webkit-box-orient: vertical; /* Vertical layout */
+    overflow: hidden;
+  }
+}

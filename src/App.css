@@ -1,38 +1,237 @@
-.App {
+html {
+  margin: 0 auto;
+  padding: 0 auto;
+}
+body {
+  background-image: url("../src/assets/bgi.png");
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  animation: backgroundAnimation 30s infinite ease-in-out;
+  font-family: "mainfont";
+}
+
+@keyframes backgroundAnimation {
+  0% {
+    background-position: top;
+  }
+  20% {
+    background-position: left;
+  }
+  40% {
+    background-position: right;
+  }
+  60% {
+    background-position: bottom;
+  }
+  80% {
+    background-position: left;
+  }
+  100% {
+    background-position: top;
+  }
+}
+
+.dark-mode {
+  background-color: black;
+  color: #ffffff;
+  transition-duration: 0.5s;
+}
+
+.light-mode {
+  background-color: #ffffff;
+  color: #000000;
+  transition-duration: 0.5s;
+}
+
+.welcome-margin-top {
+  font-family: "medium";
+}
+
+/* .h1services {
+  background: right / 0% 100% no-repeat linear-gradient(#c1f5ee, #c1f5ee);
+  transition: background-size 400ms;
+}
+.h1services:hover {
+  background: left / 100% 100% no-repeat linear-gradient(#c1f5ee, #c1f5ee);
+} */
+
+.container {
+  max-width: 990px;
+}
+
+.Divheader {
+  margin-right: 50px;
+  padding: 30px;
+  display: flex;
+  justify-content: flex-start;
+}
+img.meMac {
+  width: 200px;
+}
+
+/* .meMac {
+  width: 120px;
+  margin-bottom: 20px;
+} */
+/* .first-section {
+  margin-top: 30px;
+} */
+.section-margin-top {
+  margin-top: 150px;
+}
+
+.welcome-margin-top {
+  margin-top: 50px;
+}
+
+.welcome-margin-top h1 {
+  max-width: 680px;
+  font-family: "medium";
+  font-weight: 600;
+}
+
+.section-margin-top h1 {
+  max-width: 680px;
+  font-family: "medium";
+  font-weight: 600;
+}
+
+/* .first-section-dark {
+  background-color: #000000;
+  margin-top: 30px;
+}
+.first-section-light {
+  background-color: #ffffff;
+  margin-top: 30px;
+} */
+
+.section-margin-top p {
+  max-width: 760px;
+  font-family: "medium";
+  font-weight: 500;
+}
+
+.title-description {
+  max-width: 600px;
+  margin-bottom: 50px;
+}
+.main {
+  position: relative;
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.buttonclass {
+  margin-top: 50px;
+  width: 550px;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  gap: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Cboxes {
+  margin-top: 20px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 20px;
+}
+.containers {
+  margin-top: 200px;
+  overflow-x: auto;
+  padding: 30px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  gap: 20px;
+}
+
+.containers::-webkit-scrollbar {
+  width: 0; /* Hide the scrollbar for Chrome, Safari, and Edge */
+  display: none; /* Hide the scrollbar for Firefox */
+}
+.button-container {
+  margin-top: 30px;
+  position: absolute;
+  /* top: 10px; */
+  right: 10px;
+}
+
+.custom-button {
+  width: 60px;
+  height: 60px;
+  margin-top: 100px;
+  background-color: #0ca1d311;
+  backdrop-filter: blur(30px);
   color: white;
+  border-radius: 50px;
+  border: 1px solid white;
+  padding: 10px 20px;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 900px) {
+  body {
+    background-image: url("../src/assets/bgiMob.png");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    animation: backgroundAnimation 50s infinite ease-in-out;
   }
-  to {
-    transform: rotate(360deg);
+
+  .Divheader {
+    justify-content: center;
+  }
+
+  @keyframes backgroundAnimation {
+    0% {
+      background-position: top;
+    }
+    20% {
+      background-position: left;
+    }
+    40% {
+      background-position: right;
+    }
+    60% {
+      background-position: bottom;
+    }
+    80% {
+      background-position: left;
+    }
+    100% {
+      background-position: top;
+    }
+  }
+
+  .welcome-margin-top {
+    margin-top: 20px;
+  }
+
+  div .meMac {
+    width: 200px;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    gap: 20px;
+  }
+
+  .buttonclass {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    gap: 20px;
+  }
+
+  .header {
+    margin-right: 70px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 }

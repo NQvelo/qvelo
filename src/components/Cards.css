@@ -1,0 +1,41 @@
+.cc-light,
+.cc-dark {
+  border-radius: 15px;
+  border: solid 1px transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  transition-duration: 0.3s;
+}
+
+.cc-dark {
+  background-color: rgba(255, 255, 255, 0.057);
+}
+.cc-light {
+  background-color: rgba(0, 0, 0, 0.057);
+}
+
+.cc-dark:hover {
+  background-color: rgba(255, 255, 255, 0.078);
+}
+
+.cc-light:hover {
+  background-color: rgba(0, 0, 0, 0.106);
+}
+
+.img-light {
+  width: 200px;
+  filter: invert(100%) brightness(0) contrast(100%);
+}
+.img-dark {
+  width: 200px;
+}
+
+@media (max-width: 900px) {
+  .cc-light,
+  .cc-dark {
+    width: 100%;
+    height: 150px;
+  }
+}

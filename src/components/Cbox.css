@@ -1,0 +1,60 @@
+.contComp-light,
+.contComp-dark {
+  margin-top: 30px;
+  color: white;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  padding: 50px;
+}
+
+.contComp-dark {
+  background-color: rgba(255, 255, 255, 0.048);
+
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  transition-duration: 0.2s;
+}
+
+.a-img-light {
+  width: 200px;
+  /* filter: grayscale(100%) invert(100%); */
+  filter: invert(100%) brightness(0) contrast(100%);
+}
+.a-img-dark {
+  width: 200px;
+}
+.contComp-light {
+  border: 1px solid rgba(0, 0, 0, 0.16);
+  background-color: rgba(0, 0, 0, 0.057);
+
+  transition-duration: 1s;
+}
+
+.contComp-dark:hover {
+  border: 1px solid rgba(255, 255, 255, 0.183);
+}
+
+.contComp-light:hover {
+  border: 1px solid rgba(0, 0, 0, 0.286);
+}
+
+.contComp-light h1 {
+  margin-top: 20px;
+  font-size: 20px;
+  color: black;
+}
+.contComp-dark h1 {
+  margin-top: 20px;
+  font-size: 20px;
+  color: white;
+}
+
+.contComp-light p {
+  font-size: 16px;
+  color: black;
+}
+.contComp-dark p {
+  font-size: 16px;
+  color: white;
+}
